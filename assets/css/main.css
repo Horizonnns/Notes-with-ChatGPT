@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@layer base {
+  @font-face {
+    font-family: 'DancingScript';
+    font-weight: 400;
+    src: url('../fonts/DancingScript-Regular.ttf') format('ttf');
+  }
+
+  @font-face {
+    font-family: 'DancingScript';
+    font-weight: 500;
+    src: url('../fonts/DancingScript-Medium.ttf') format('ttf');
+  }
+
+  @font-face {
+    font-family: 'DancingScript';
+    font-weight: 700;
+    src: url('../fonts/DancingScript-Bold.ttf') format('ttf');
+  }
+}
+/* fonts */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #333;
+  background-color: #f8f4ec;
+  font-family: 'DancingScript';
+}
